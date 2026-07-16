@@ -23,7 +23,7 @@ $(BUILD_DIR)/switch-config$(EXEEXT): $(COMMON) switch_config/main.c | $(BUILD_DI
 $(BUILD_DIR)/router-config$(EXEEXT): $(COMMON) router_config/main.c | $(BUILD_DIR)
 	$(CC) $(CFLAGS) $(INCLUDES) $^ -o $@
 
-test:
+test: | $(BUILD_DIR)
 	$(CC) $(CFLAGS) $(INCLUDES) $(COMMON) tests/test_switch_config.c -o $(BUILD_DIR)/test_switch_config$(EXEEXT)
 	./$(BUILD_DIR)/test_switch_config$(EXEEXT)
 
