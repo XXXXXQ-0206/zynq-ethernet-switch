@@ -1,0 +1,14 @@
+/include/ "system-conf.dtsi"
+
+/ {
+    chosen {
+        bootargs = "uio_pdrv_genirq.of_id=generic-uio";
+    };
+};
+
+&amba_pl {
+    switch_registers: switch-registers@0 {
+        compatible = "generic-uio";
+        reg = <0x0 0x0 0x0 0x1000>;
+    };
+};
