@@ -25,8 +25,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/XXXXXQ-0206/zynq-ethernet-switch-lab.git
-cd zynq-ethernet-switch-lab
+git clone https://github.com/XXXXXQ-0206/zynq-ethernet-switch.git
+cd zynq-ethernet-switch
 ```
 
 可移植检查需要 GCC、Icarus Verilog 和 Verilator；只有进行板卡集成时才需要 Vivado 和 PetaLinux。

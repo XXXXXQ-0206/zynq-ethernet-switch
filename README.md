@@ -25,8 +25,8 @@ The repository contains RTL and command-line tools, not a graphical application.
 ## Installation
 
 ```bash
-git clone https://github.com/XXXXXQ-0206/zynq-ethernet-switch-lab.git
-cd zynq-ethernet-switch-lab
+git clone https://github.com/XXXXXQ-0206/zynq-ethernet-switch.git
+cd zynq-ethernet-switch
 ```
 
 Install GCC, Icarus Verilog, and Verilator for portable checks. Vivado and PetaLinux are required only for board integration.
